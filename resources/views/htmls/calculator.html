@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../images/favicon.png" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v6.0.0-beta3/css/all.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>Mobil Broker</title>
+</head>
+
+<body>
+    <header>
+        <div class="header-top">
+            <div class="container d-flex justify-content-between align-items-center py-2">
+                <div class="header-top-left d-flex ">
+                    <span class="address"><i class="far fa-map-marker-alt"></i> Bakı, Əhməd Rəcəbli 156</span>
+                </div>
+                <div class="header-top-right d-flex">
+                    <form class="search-form d-flex" action="#">
+                        <input type="text" placeholder="Axtar...">
+                        <button><i class="far fa-search"></i></button>
+                    </form>
+                    <div class="dropdown language-dropdown">
+                        <div> AZ <i class="far fa-chevron-down"></i></div>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">EN</a></li>
+                            <li><a class="dropdown-item" href="#">RU</a></li>
+                        </ul>
+                    </div>
+                    <div>
+                        <a href="https://www.linkedin.com/" target="_blank"><i class="fab fa-linkedin-in mx-3"></i></a>
+                        <a href="https://api.whatsapp.com/send?phone=+994503416662" target="_blank"><i
+                                class="fab fa-whatsapp me-2"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <nav class="navbar navbar-expand-lg navbar-dark">
+            <div class="container">
+                <a class="navbar-brand" href="../index.html">
+                    <img src="../images/logo-white.png" alt="">
+                </a>
+                <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" href="./whoweare.html">BROKER KİMDİR?</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./about.html">HAQQIMIZDA</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link " href="javascript:void(0)">
+                                XİDMƏTLƏRİMİZ
+                                <i class="far fa-chevron-down"></i>
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="./service-detail.html">Gömrük Bəyannamələrinin
+                                        Tərtibi</a></li>
+                                <li><a class="dropdown-item" href="./service-detail.html">Tam Gömrük
+                                        Təmsilçiliyi</a></li>
+                                <li><a class="dropdown-item" href="./service-detail.html">Avtomobillərin Gömrük
+                                        Rəsmiləşdirilməsi</a></li>
+                                <li><a class="dropdown-item" href="./service-detail.html">Sertifikat Və Icazələrin
+                                        Alınması</a></li>
+                                <li><a class="dropdown-item" href="./service-detail.html">Onlayn Müraciət
+                                        Imkanı</a></li>
+                                <li><a class="dropdown-item" href="./service-detail.html">Ödənişsiz
+                                        Konsultasiya</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link " href="javascript:void(0)">
+                                MEDİA
+                                <i class="far fa-chevron-down"></i>
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="./news.html">Xəbərlər</a></li>
+                                <li><a class="dropdown-item" href="./blog.html">Video Blog</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./branch.html">FİLİALLAR</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./faq.html">FAQ</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./contact.html">ƏLAQƏ</a>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main id="calculator">
+        <div class="page-header-banner">
+            <div class="page-header-content">
+                <h1 class="page-header-title">Gömrük kalkulyatoru</h1>
+                <ol class="breadcrumb align-items-center">
+                    <li class="breadcrumb-item"><a href="../index.html"><i class="fal fa-home"></i></a></li>
+                    <li class="breadcrumb-item active"><a href="javascript:void()">Gömrük kalkulyatoru</a></li>
+                </ol>
+            </div>
+        </div>
+        <div class="container py-4">
+            <div class="row mt-2">
+                <div class="col-12">
+                    <form class="row g-3">
+                        <div class="form-group col-12">
+                            <label for="xif">XİF MN üzrə kod</label>
+                            <select class="form-control" id="xif">
+                                <option>Seçin</option>
+                                <option>2</option>
+                                <option>3</option>
+                                <option>4</option>
+                                <option>5</option>
+                            </select>
+                        </div>
+                        <div class="form-group col-12 col-md-6">
+                            <label for="invoys">Invoys</label>
+                            <input type="text" class="form-control" id="invoys"
+                                placeholder="Password">
+                        </div>
+                        <div class="form-group col-12 col-md-6">
+                            <label for="currency">Valyuta</label>
+                            <select class="form-control" id="currency">
+                                <option>Seçin</option>
+                                <option>2</option>
+                                <option>3</option>
+                                <option>4</option>
+                                <option>5</option>
+                            </select>
+                        </div>
+                        <div class="form-group col-12 col-md-6">
+                            <label for="shipping-costs">Daşınma xərci</label>
+                            <input type="text" class="form-control" id="shipping-costs"
+                                placeholder="Password">
+                        </div>
+                        <div class="form-group col-12 col-md-6">
+                            <label for="currency">Valyuta</label>
+                            <select class="form-control" id="currency">
+                                <option>Seçin</option>
+                                <option>2</option>
+                                <option>3</option>
+                                <option>4</option>
+                                <option>5</option>
+                            </select>
+                        </div>
+                        <div class="form-group col-12 col-md-6">
+                            <label for="international-ship-agreement">Beynəlxalq gəmi razılaşması</label>
+                            <select class="form-control" id="international-ship-agreement">
+                                <option>Seçin</option>
+                                <option>2</option>
+                                <option>3</option>
+                                <option>4</option>
+                                <option>5</option>
+                            </select>
+                        </div>
+                        <div class="form-group col-12 col-md-6">
+                            <label for="operating-costs">Əməliyyat xərci</label>
+                            <select class="form-control" id="operating-costs">
+                                <option>Seçin</option>
+                                <option>2</option>
+                                <option>3</option>
+                                <option>4</option>
+                                <option>5</option>
+                            </select>
+                        </div>
+                        <div class="col-12">
+                            <button class="btn-green">Hesabla</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="footer-top">
+            <div class="container d-flex justify-content-between align-items-center">
+                <h3>Bizə Qoşul</h3>
+                <a class="btn-black" href="./contact.html">Online Əlaqə</a>
+            </div>
+        </div>
+        <div class="footer-content">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-md-8 col-lg-4">
+                        <img src="../images/logo-white.png" alt="">
+                        <p class="footer-text">
+                            MOBIL GROUP-un törəmə şirkəti olan Mobil Broker MMC beynəlxalq təcrübə əsasında qurulan
+                            müasir gömrük təmsilçiliyidir. Mobil Broker 2017-cı ildən etibarən gömrük brokeri qismində
+                            fəaliyyətdədir. Böyük şəbəkəyə sahib olan şirkət kompleks gömrük xidmətləri
+                        </p>
+                        <div class="mb-3 sosial-icons d-flex align-items-center">
+                            <a href="https://www.facebook.com/" target="_blank" class="facebook-icon"><i
+                                    class="fab fa-facebook-f"></i></a>
+                            <a href="https://www.instagram.com/" target="_blank" class="instagram-icon"><i
+                                    class="fab fa-instagram"></i></a>
+                            <a href="https://twitter.com/" target="_blank" class="twitter-icon"><i
+                                    class="fab fa-twitter"></i></a>
+                            <a href="https://www.linkedin.com/" target="_blank" class="linkedin-icon"><i
+                                    class="fab fa-linkedin-in"></i></a>
+                            <a href="https://www.youtube.com/" target="_blank" class="youtube-icon"><i
+                                    class="fab fa-youtube"></i></a>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-4 col-lg-2">
+                        <h4 class="footer-title">Menyu</h4>
+                        <ul>
+                            <li><a class="footer-link" href="./whoweare.html">Broker Kimdir?</a></li>
+                            <li><a class="footer-link" href="./about.html">Haqqımızda</a></li>
+                            <li><a class="footer-link" href="./services.html">Xidmətlərimiz</a></li>
+                            <li><a class="footer-link" href="./branch.html">Filiallar</a></li>
+                            <li><a class="footer-link" href="./fag.html">FAG</a></li>
+                            <li><a class="footer-link" href="./contact.html">Əlaqə</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-12 col-md-8 col-lg-3">
+                        <h4 class="footer-title">Xidmətlərimiz</h4>
+                        <ul>
+                            <li><a class="footer-link" href="#">Gömrük bəyannamələrinin tərtibi</a></li>
+                            <li><a class="footer-link" href="#">Tam gömrük təmsilçiliyi</a></li>
+                            <li><a class="footer-link" href="#">Avtomobillərin gömrük rəsmiləşdirilməsi</a></li>
+                            <li><a class="footer-link" href="#">Sertifikat və icazələrin alınması</a></li>
+                            <li><a class="footer-link" href="#">Onlayn müraciət imkanı</a></li>
+                            <li><a class="footer-link" href="#">Ödənişsiz konsultasiya</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-12 col-md-4 col-lg-3">
+                        <h4 class="footer-title">Əlaqə məlumatları</h4>
+                        <ul class="contact-info">
+                            <li><a class="footer-link" href="tel:0090"><i class="far fa-mobile-android"></i> *0090 (çağrı mərkəzi)</a></li>
+                            <li><a class="footer-link" href="tel:+994513339090"><i class="far fa-phone-alt"></i> 0513339090</a></li>
+                            <li><a class="footer-link" href="../index.html"><i class="far fa-globe"></i> http://mobilbroker.az/</a></li>
+                            <li><a class="footer-link" href="mailto:info@mobilbroker.az"><i class="far fa-envelope"></i> info@mobilbroker.az</a></li>
+                            <li><a class="footer-link" href="#"><i class="far fa-map-marker-alt"></i> Əhməd Rəcəbli 156, Aynalı Plaza</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <div class="container">
+                <p>Bütün hüquqlar qorunur. © 2021 | Mobil Broker</p>
+            </div>
+        </div>
+    </footer>
+    <div class="messenger-container">
+        <div class="messenger-iframe">
+            <div class="messenger-iframe-header">
+                <p><i class="fab fa-facebook-messenger"></i> Facebook Messenger</p>
+                <i class="fas fa-times messenger-close"></i>
+            </div>
+            <iframe
+                src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2F111505943678099&tabs=messages&width=302&height=300&small_header=true&adapt_container_width=true&hide_cover=true&show_facepile=false&appId"
+                frameborder="0"></iframe>
+        </div>
+        <a href="javascript:void(0)" class="messenger-icon">
+            <i class="fab fa-facebook-messenger"></i>
+        </a>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+
+    <script src="../js/app.js"></script>
+</body>
+
+</html>

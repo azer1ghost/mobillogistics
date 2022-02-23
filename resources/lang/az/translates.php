@@ -1,0 +1,25 @@
+<?php
+
+return [
+    'partners' => 'ORTAQLARIMIZ',
+    'faqs' => 'Tez-Tez Verilən Suallar',
+    'details' => 'Ətraflı',
+    'branches' => 'Filiallar',
+    'look_at_map' => 'XƏRİTƏDƏ BAX',
+    'news' => 'Xəbərlər',
+    'share' => 'Paylaşın',
+    'contact' => 'Əlaqə',
+    'name' => 'Ad Soyad',
+    'email' => 'Elektron Poçt',
+    'phone' => 'Nömrə',
+    'subject' => 'Mövzu',
+    'note' => 'Qeyd',
+    'send' => 'Göndər',
+    'join_us' => 'Sürətli logistika xidməti',
+    'communication' => 'Əlaqə Vasitələri',
+    'menu' => 'Menyular',
+    'services' => 'Xidmətlərimiz',
+    'online_contact' => 'Online Əlaqə',
+    'rights' => 'Bütün hüquqlar qorunur.',
+    'footer_description' => 'MOBIL GROUP-un törəmə şirkəti olan Mobil Logistics MMC quru, su, hava və dəmiryolu vasitəsilə yüklərin sürətli beynəlxalq daşımalarını həyata keçirən etibarlı logistika şirkətidir. Şirkətin fəaliyyətində hava nəqliyyatı xüsusi yer tutur. Mobil Logistics eyni zamanda, xaricdəki ünvanlardan yüklərin birbaşa götürülməsini, həssas və xüsusi saxlanma şəraiti tələb olunan yüklərin, eləcə də avtomobil və iri texnikanın daşınmasını həyata keçirir.',
+];
