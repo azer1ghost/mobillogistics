@@ -10,6 +10,7 @@
             <div class="row my-2">
                 <div class="col-12">
                     <img src="{{asset(Voyager::image($meta->image()))}}" class="float-image float-image p-0 me-lg-4" alt="About US image">
+                    <h1 class="mb-4">Mobil Logistics</h1>
                     <div class="about-us-content pe-0 pe-md-4 about-us-text text-justify">
                         {!! $meta->get('body') !!}
                     </div>

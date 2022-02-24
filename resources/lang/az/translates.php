@@ -1,7 +1,7 @@
 <?php
 
 return [
-    'partners' => 'ORTAQLARIMIZ',
+    'partners' => 'DOSTLARIMIZ',
     'faqs' => 'Tez-Tez Verilən Suallar',
     'details' => 'Ətraflı',
     'branches' => 'Filiallar',
