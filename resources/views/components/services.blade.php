@@ -1,6 +1,6 @@
 <section class="services" style="background-image: url('{{asset('assets/images/home-services-bg.jpg')}}');">
     <div class="container">
-        <div class="row">
+        <div class="row justify-content-around">
             <div class="col-12">
                 <h1 class="title">@lang('translates.services')</h1>
             </div>
