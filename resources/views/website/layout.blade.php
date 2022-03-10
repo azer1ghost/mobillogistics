@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="shortcut icon" href="{{asset('favicon.ico')}}" type="image/x-icon">
     <meta name="description" content="@yield('description')">
-
+    <link rel="stylesheet" href="https://i.icomoon.io/public/temp/8c8aee1661/UntitledProject/style.css">
     @yield('meta')
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
