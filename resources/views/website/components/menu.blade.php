@@ -1,4 +1,4 @@
-<ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+<ul class="navbar-nav ms-auto mb-2 mb-lg-0" style="font-size: 20px">
     @php
         if (Voyager::translatable($items)) {
             $items = Cache::remember("menu_items", config('cache.timeout'), function () use ($items){
