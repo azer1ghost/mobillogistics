@@ -107,14 +107,6 @@ input {
     font-size: 2.6rem;
     text-transform: capitalize;
     color: var(--color-main);
-
-    &::after {
-        content: "";
-        display: block;
-        width: 100%;
-        height: 3px;
-        background-color: var(--color-main);
-    }
 }
 
 .float-image {

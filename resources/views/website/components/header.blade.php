@@ -25,7 +25,7 @@
                 </div>
                 <div>
                     <a href="{{setting('site.linkedin')}}" target="_blank"><i class="fab fa-linkedin-in mx-3"></i></a>
-                    <a href="https://api.whatsapp.com/send?phone={{setting('site.phone')}}" target="_blank"><i class="fab fa-whatsapp me-2"></i></a>
+                    <a href="https://api.whatsapp.com/send?phone={{setting('site.phone')}}" target="_blank"><i class="fa fa-whatsapp me-2"></i></a>
                 </div>
             </div>
         </div>
