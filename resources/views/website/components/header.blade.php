@@ -1,14 +1,13 @@
 <header>
-    <div class="header-top">
+    <div class="header-top" style=" background-color: white; color:black">
         <div class="container d-flex justify-content-between align-items-center py-2">
             <div class="header-top-left d-flex ">
-                <span class="address"><i class="far fa-map-marker-alt"></i> {{setting('site.address')}}</span>
+                <span class="address" style="color: black"><i class="far fa-map-marker-alt"></i> {{setting('site.address')}}</span>
             </div>
+            <a class="navbar-brand" href="{{route('homepage')}}">
+                <img src="{{asset( Voyager::image(setting('site.logo')) ?? '/assets/images/logo-white.png') }}" width="150" alt="{{config('app.name')}}" >
+            </a>
             <div class="header-top-right d-flex">
-{{--                <form class="search-form d-flex" action="#">--}}
-{{--                    <input type="text" placeholder="Axtar...">--}}
-{{--                    <button><i class="far fa-search"></i></button>--}}
-{{--                </form>--}}
                 <div class="dropdown language-dropdown">
                     <div class="dropdown-toggle" id="language" data-bs-toggle="dropdown" aria-expanded="false">
                         <span class="flag-icon flag-icon-{{app()->getLocale()}}"></span> {{ucfirst(app()->getLocale())}}
@@ -32,15 +31,14 @@
         </div>
     </div>
     <nav class="navbar navbar-expand-lg navbar-dark">
-        <div class="container">
-            <a class="navbar-brand" href="{{route('homepage')}}">
-                <img src="{{asset( Voyager::image(setting('site.logo')) ?? '/assets/images/logo-white.png') }}"  alt="{{config('app.name')}}" >
-            </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarMenu" aria-controls="navbarMenu" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarMenu">
-                {!! menu('website', 'website.components.menu') !!}
+        <button class="navbar-toggler ms-1" type="button" data-bs-toggle="collapse" data-bs-target="#navbarMenu" aria-controls="navbarMenu" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="container justify-content-center">
+            <div class="d-flex justify-content-center">
+                <div class="collapse navbar-collapse" id="navbarMenu">
+                    {!! menu('website', 'website.components.menu') !!}
+                </div>
             </div>
         </div>
     </nav>

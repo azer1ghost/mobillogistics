@@ -19,7 +19,7 @@ return [
     'communication' => 'Əlaqə Vasitələri',
     'menu' => 'Menyular',
     'services' => 'Xidmətlərimiz',
-    'online_contact' => 'Online Əlaqə',
+    'online_contact' => 'Onlayn Müraciət',
     'rights' => 'Bütün hüquqlar qorunur.',
-    'footer_description' => 'MOBIL GROUP-un törəmə şirkəti olan Mobil Logistics MMC quru, su, hava və dəmiryolu vasitəsilə yüklərin sürətli beynəlxalq daşımalarını həyata keçirən etibarlı logistika şirkətidir. Şirkətin fəaliyyətində hava nəqliyyatı xüsusi yer tutur. Mobil Logistics eyni zamanda, xaricdəki ünvanlardan yüklərin birbaşa götürülməsini, həssas və xüsusi saxlanma şəraiti tələb olunan yüklərin, eləcə də avtomobil və iri texnikanın daşınmasını həyata keçirir.',
+    'footer_description' => '“Mobil Logistics” beynəlxalq yük daşımalarını həyata keçirən etibarlı logistika şirkətidir. Sürətli və  təhlükəsiz daşımanı özündə əsas prinsipə çevirən şirkət 150 yə yaxın ölkəyə və əks istiqamətdə yüklərin daşınmasını həyata keçirir. “Mobil Logistics”  dünyanın aparıcı hava yolları daşıyıcıları ilə sıx əməkdaşlıq içindədir. Bununla yanaşı quru, dəmiryolu və su nəqliyyatı ilə yük daşımalarını uğurla həyata keçirir.',
 ];

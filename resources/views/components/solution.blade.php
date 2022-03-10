@@ -1,7 +1,7 @@
 <section class="advantages">
     <div class="row align-items-center">
         <div class="col-12 col-md-6 p-4 p-sm-5 text-center text-md-start">
-            <h1 class="advantages-title">{!! $meta->get('title') !!}</h1>
+            <h1 class="title">{!! $meta->get('title') !!}</h1>
             <div class="advantages-text">
                 {!! $meta->get('body') !!}
             </div>
