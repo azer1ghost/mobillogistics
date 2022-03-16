@@ -1,4 +1,4 @@
-<div class="page-header-banner" style="background-image: url('{{asset('assets/images/slide-img-2.jpg')}}');">
+<div class="page-header-banner" style="background-image: url('{{asset('assets/images/logistics1.jpg')}}');">
     <div class="page-header-content">
         <h1 class="page-header-title">{{$title}}</h1>
         <ol class="breadcrumb align-items-center">
