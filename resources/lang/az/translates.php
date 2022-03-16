@@ -19,7 +19,7 @@ return [
     'communication' => 'Əlaqə Vasitələri',
     'menu' => 'Menyular',
     'services' => 'Xidmətlərimiz',
-    'online_contact' => 'Onlayn Müraciət',
+    'online_contact' => 'Onlayn Müraciət Et',
     'rights' => 'Bütün hüquqlar qorunur.',
     'footer_description' => '“Mobil Logistics” beynəlxalq yük daşımalarını həyata keçirən etibarlı logistika şirkətidir. Sürətli və  təhlükəsiz daşımanı özündə əsas prinsipə çevirən şirkət 150 yə yaxın ölkəyə və əks istiqamətdə yüklərin daşınmasını həyata keçirir. “Mobil Logistics”  dünyanın aparıcı hava yolları daşıyıcıları ilə sıx əməkdaşlıq içindədir. Bununla yanaşı quru, dəmiryolu və su nəqliyyatı ilə yük daşımalarını uğurla həyata keçirir.',
 ];
