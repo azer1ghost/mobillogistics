@@ -15,6 +15,8 @@ Route::get('media/article/{post:slug}', [WebsiteController::class, 'article'])->
 Route::get('branch', [WebsiteController::class, 'branches'])->name('branches');
 Route::get('faq', [WebsiteController::class, 'faqs'])->name('faq');
 Route::get('contact', [WebsiteController::class, 'contact'])->name('contact');
+Route::get('contact-us', [WebsiteController::class, 'contactUs'])->name('contactUs');
+
 
 Localization::route();
 
