@@ -17,6 +17,11 @@
     <link rel="stylesheet" href="{{ asset('assets/css/style.css') }}" >
     <link rel="stylesheet" href="{{ mix('assets/css/app.css') }}" >
     @yield('style')
+    <style>
+        body {
+            background-color: white;
+        }
+    </style>
 </head>
 <body>
     @include('website.components.header')
