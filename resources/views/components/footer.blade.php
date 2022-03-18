@@ -21,7 +21,7 @@
                         @endforeach
                     </div>
                 </div>
-                <div class="col-12 col-md-4 col-lg-2">
+                <div class="col-12 col-md-4 col-lg-2" style="margin-top: 33px">
                     <h4 class="footer-title">@lang('translates.menu')</h4>
                     <ul>
                         @foreach($menuItems as $item)
@@ -29,7 +29,7 @@
                         @endforeach
                     </ul>
                 </div>
-                <div class="col-12 col-md-8 col-lg-3">
+                <div class="col-12 col-md-8 col-lg-3" style="margin-top: 33px">
                     <h4 class="footer-title">@lang('translates.services')</h4>
                     <ul>
                         @foreach($services as $service)
@@ -41,7 +41,7 @@
                         @endforeach
                     </ul>
                 </div>
-                <div class="col-12 col-md-4 col-lg-3">
+                <div class="col-12 col-md-4 col-lg-3" style="margin-top: 33px">
                     <h4 class="footer-title">@lang('translates.communication')</h4>
                     <ul class="contact-info">
                         <li><a class="footer-link" href="tel:{{setting('site.short_phone')}}"><i class="far fa-mobile-android"></i>
