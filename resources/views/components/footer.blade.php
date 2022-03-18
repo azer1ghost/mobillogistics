@@ -2,7 +2,7 @@
     <div class="footer-top">
         <div class="container d-flex justify-content-between align-items-center">
             <h3>@lang('translates.join_us')</h3>
-            <a class="btn-black" href="{{route('contact')}}">@lang('translates.online_contact')</a>
+            <a class="btn-black" href="{{route('contactUs')}}">@lang('translates.online_contact')</a>
         </div>
     </div>
     <div class="footer-content">
@@ -44,7 +44,7 @@
                 <div class="col-12 col-md-4 col-lg-3" style="margin-top: 33px">
                     <h4 class="footer-title">@lang('translates.communication')</h4>
                     <ul class="contact-info">
-                        <li><a class="footer-link" href="tel:{{setting('site.short_phone')}}"><i class="far fa-mobile-android"></i>
+                        <li><a class="footer-link" href="tel:{{setting('site.short_phone')}}"><i class="fal fa-user-headset"></i>
                             {{setting('site.short_phone')}}</a></li>
                         <li><a class="footer-link" href="tel:{{setting('site.phone')}}"><i class="far fa-phone-alt"></i>
                             {{setting('site.phone')}}</a></li>

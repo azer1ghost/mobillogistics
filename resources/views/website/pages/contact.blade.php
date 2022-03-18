@@ -7,33 +7,30 @@
     <main id="contact">
         <div class="container pt-4">
             <div class="row my-2 flex-md-row-reverse">
-                <div class="col-12 col-md-6 mb-4">
-                    <form class="row g-3">
-                        <div class="col-md-6">
-                            <input type="text" name="name" aria-label="" placeholder="@lang('translates.name')" class="form-control">
-                        </div>
-                        <div class="col-md-6">
-                            <input type="email" name="email" aria-label="" placeholder="@lang('translates.email')" class="form-control">
-                        </div>
-                        <div class="col-6">
-                            <input type="text" name="number" min="8" max="20" aria-label="" placeholder="@lang('translates.phone')" class="form-control">
-                        </div>
-                        <div class="col-6">
-                            <input type="text" name="subject" aria-label="" class="form-control" placeholder="@lang('translates.subject')">
-                        </div>
-                        <div class="col-12">
-                            <textarea rows="5" name="note" aria-label="" placeholder="@lang('translates.note')" type="text" class="form-control" ></textarea>
-                        </div>
-                        <div class="col-12">
-                            <button type="submit" class="btn-green">@lang('translates.send')</button>
-                        </div>
-                    </form>
+                <div class="col-12 col-md-4 mb-4">
+                    <h4 class="footer-title">@lang('translates.communication')</h4>
+                    <ul class="contact-info">
+                        <li class="m-2"><a class="footer-link text-primary" href="tel:{{setting('site.short_phone')}}"><i
+                                    class="fal fa-user-headset"></i>
+                                {{setting('site.short_phone')}}</a></li>
+                        <li class="m-2"><a class="footer-link text-primary" href="tel:{{setting('site.phone')}}"><i
+                                    class="far fa-phone-alt"></i>
+                                {{setting('site.phone')}}</a></li>
+                        <li class="m-2"><a class="footer-link text-primary" href="https://mobilbroker.az"><i
+                                    class="far fa-globe"></i>
+                                {{setting('site.website')}}</a></li>
+                        <li class="m-2"><a class="footer-link text-primary" href="mailto:{{setting('site.email')}}"><i
+                                    class="far fa-envelope"></i>
+                                {{setting('site.email')}}</a></li>
+                        <li class="m-2"><a class="footer-link text-primary" href="#"><i
+                                    class="far fa-map-marker-alt"></i> {{setting('site.address')}}</a></li>
+                    </ul>
                 </div>
                 <div class="col-12 col-md-6 mb-3">
-                    <iframe src="{{setting('site.location')}}" height="320" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                    <iframe src="{{setting('site.location')}}" height="320" style="border:0;" allowfullscreen=""
+                            loading="lazy"></iframe>
                 </div>
             </div>
         </div>
     </main>
-
 @endsection
