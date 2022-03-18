@@ -2,7 +2,7 @@
 
 return [
     'partners' => 'Dostlarımız',
-    'faqs' => 'Tez-Tez Verilən Suallar',
+    'faqs' => 'Sual-Cavab',
     'details' => 'Ətraflı',
     'branches' => 'Filiallar',
     'look_at_map' => 'XƏRİTƏDƏ BAX',
