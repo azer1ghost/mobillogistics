@@ -44,7 +44,7 @@
                 <div class="col-12 col-md-4 col-lg-3" style="margin-top: 33px">
                     <h4 class="footer-title">@lang('translates.communication')</h4>
                     <ul class="contact-info">
-                        <li><a class="footer-link" href="tel:{{setting('site.short_phone')}}"><i class="fal fa-user-headset"></i>
+                        <li><a class="footer-link" href="tel:{{setting('site.short_phone')}}"><i class="icon-zeng"></i>
                             {{setting('site.short_phone')}}</a></li>
                         <li><a class="footer-link" href="tel:{{setting('site.phone')}}"><i class="far fa-phone-alt"></i>
                             {{setting('site.phone')}}</a></li>
