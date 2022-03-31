@@ -12040,7 +12040,7 @@ a.nav-link:hover::after {
 
   .header-responsive {
     padding-left: 123px;
-    padding-right: 126px;
+    padding-right: 122px;
   }
 }
 @media (max-width: 768px) {
