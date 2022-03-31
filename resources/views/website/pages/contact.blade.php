@@ -5,11 +5,12 @@
 @section('content')
     @include('website.components.banner', ['title' => trans('translates.contact')])
     <main id="contact">
-        <div class="container pt-4">
+        <div class="container ">
             <div class="row my-2 flex-md-row-reverse">
                 <div class="col-12 col-md-4 mb-4">
                     <div class="card" style="width: 18rem;">
-                        <img class="card-img-top"  src="https://my.mobilgroup.az/assets/images/logo.svg" alt="Card image cap">
+                        <img class="card-img-top" height="250" src="https://mobillogistics.az/storage/branches/March2022/bnvqqiN4O4qyFIIoRQot.jpg" alt="Card image cap">
+                        <h5 class="text-center">@lang('translates.main_branch')</h5>
                         <h4 class="footer-title">@lang('translates.communication')</h4>
                         <ul class="contact-info">
                             <li class="m-2"><a class="footer-link text-primary" href="tel:{{setting('site.short_phone')}}"><i

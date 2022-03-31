@@ -24,5 +24,6 @@ return [
     'services' => 'Services',
     'online_contact' => 'Online Contact',
     'rights' => 'All rights is protected.',
+    'main_branch' => 'Main Office',
     'footer_description' => 'Mobil Logistics LLC, a subsidiary of MOBIL GROUP, is a reliable logistics company that provides high-speed international cargo transportation by land, water, air and rail. Air transport has a special place in the company\'s activities. Mobile Logistics also carries out direct pick-up of cargo from foreign addresses, transportation of cargo requiring sensitive and special storage conditions, as well as cars and large equipment.',
 ];
