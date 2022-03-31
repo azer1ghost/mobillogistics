@@ -11436,7 +11436,6 @@ input.form-control:focus, input[type=text]:focus, input[type=password]:focus, in
   color: var(--color-main);
 }
 
-
 .float-image {
   max-width: 550px;
   width: 100%;
@@ -11646,15 +11645,6 @@ a.nav-link:hover::after {
 
 .navbar img {
   max-width: 160px;
-}
-
-.home-calculator {
-    padding: 4rem 0;
-    text-align: center;
-}
-.home-calculator p {
-    padding: 1rem 0;
-    text-align: justify;
 }
 
 /********** PAGES HEADER **********/
@@ -11912,12 +11902,6 @@ a.nav-link:hover::after {
   width: 100%;
 }
 
-/********* CONTACT *********/
-
-.slide-image{
-    clip-path: ellipse(150% 100% at 50% 0);
-}
-
 /********* FOOTER *********/
 .footer-top {
   padding: 1rem 0;
@@ -11960,21 +11944,6 @@ a.nav-link:hover::after {
 .sosial-icons a:hover {
   color: var(--color-white);
 }
-.sosial-icons .facebook-icon {
-  background-color: #1877f2;
-}
-.sosial-icons .instagram-icon {
-  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285aeb 90%);
-}
-.sosial-icons .twitter-icon {
-  background-color: #1da1f2;
-}
-.sosial-icons .linkedin-icon {
-  background-color: #0a66c2;
-}
-.sosial-icons .youtube-icon {
-  background-color: #f00;
-}
 
 .contact-info i {
   width: 20px;
@@ -11992,6 +11961,27 @@ a.nav-link:hover::after {
   font-size: 50px;
   color: #99cd08;
   cursor: pointer;
+}
+
+.header-logo {
+  margin-left: 115px;
+}
+
+.header-whatsapp {
+  margin-right: 15px;
+}
+
+.header-icons {
+  margin-right: 113px;
+  color: #111f6e;
+}
+
+.header-call {
+  margin-right: 65px;
+}
+
+.head-lang {
+  margin-left: 20px;
 }
 
 /********* MEDIA QUERY *********/
@@ -12013,6 +12003,34 @@ a.nav-link:hover::after {
     max-width: -webkit-max-content;
     max-width: -moz-max-content;
     max-width: max-content;
+  }
+}
+@media (max-width: 1366px) {
+  .navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 0.5rem;
+    padding-left: 0.5rem;
+    font-size: 15px;
+  }
+
+  .header-logo {
+    margin-left: 110px;
+  }
+
+  .header-whatsapp {
+    margin-right: 0;
+  }
+
+  .header-icons {
+    margin-right: 108px;
+    color: #111f6e;
+  }
+
+  .header-call {
+    margin-right: 38px;
+  }
+
+  .head-lang {
+    margin-left: 20px;
   }
 }
 @media (max-width: 768px) {
