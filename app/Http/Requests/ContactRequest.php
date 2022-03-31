@@ -12,7 +12,7 @@ class ContactRequest extends FormRequest
             'name' => 'required|string',
             'number' => 'required|string',
             'subject' => 'nullable|string',
-            'note' => 'nullable|string',
+            'message' => 'nullable|string',
             'email' => 'required|email:rfc,dns',
         ];
     }
