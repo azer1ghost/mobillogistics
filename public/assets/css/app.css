@@ -12037,6 +12037,11 @@ a.nav-link:hover::after {
   .head-lang {
     margin-left: 20px;
   }
+
+  .header-responsive {
+    padding-left: 123px;
+    padding-right: 126px;
+  }
 }
 @media (max-width: 768px) {
   html {
