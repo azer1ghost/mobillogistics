@@ -667,26 +667,6 @@ a.nav-link {
             color: var(--color-white);
         }
     }
-
-    .facebook-icon {
-        background-color: #1877f2;
-    }
-
-    .instagram-icon {
-        background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285aeb 90%);
-    }
-
-    .twitter-icon {
-        background-color: #1da1f2;
-    }
-
-    .linkedin-icon {
-        background-color: #0a66c2;
-    }
-
-    .youtube-icon {
-        background-color: #f00;
-    }
 }
 
 .contact-info i {
@@ -706,6 +686,22 @@ a.nav-link {
     font-size: 50px;
     color: #99cd08;
     cursor: pointer;
+}
+.header-logo {
+    margin-left: 115px;
+}
+.header-whatsapp{
+    margin-right: 15px;
+}
+.header-icons {
+    margin-right: 113px;
+    color: #111f6e;
+}
+.header-call {
+    margin-right: 65px;
+}
+.head-lang {
+    margin-left: 20px;
 }
 
 /********* MEDIA QUERY *********/
@@ -728,6 +724,30 @@ a.nav-link {
 @media (max-width: 992px) {
     .float-image {
         max-width: max-content;
+    }
+}
+
+@media (max-width: 1366px) {
+    .navbar-expand-lg .navbar-nav .nav-link {
+        padding-right: 0.5rem;
+        padding-left: 0.5rem;
+        font-size: 15px;
+    }
+    .header-logo {
+        margin-left: 110px;
+    }
+    .header-whatsapp {
+        margin-right: 0;
+    }
+    .header-icons {
+        margin-right: 108px;
+        color: #111f6e;
+    }
+    .header-call {
+        margin-right: 38px;
+    }
+    .head-lang {
+        margin-left: 20px;
     }
 }
 

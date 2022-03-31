@@ -9,14 +9,14 @@
         <div class="container">
             <div class="row">
                 <div class="col-12 col-md-8 col-lg-4">
-                    <img src="{{Voyager::image(setting('site.logo'))}}" alt="">
+                    <img src="{{Voyager::image(setting('site.footer_logo'))}}" alt="">
                     <p class="footer-text">
                         @lang('translates.footer_description')
                     </p>
                     <div class="mb-3 sosial-icons d-flex align-items-center">
                         @foreach($socials as $social)
                             <a href="{{$social->link}}" target="_blank" class="{{$social->name}}-icon">
-                                <i class="fab fa-{{$social->name}}"></i>
+                                <i class="fab fa-{{$social->name}} fa-2x"></i>
                             </a>
                         @endforeach
                     </div>
@@ -60,7 +60,7 @@
     </div>
     <div class="copyright">
         <div class="container">
-            <p>@lang('translates.rights') © 2022 | Mobil Broker</p>
+            <p>@lang('translates.rights') © 2022 | Mobil Logistics</p>
         </div>
     </div>
 </footer>

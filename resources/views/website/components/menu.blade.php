@@ -49,7 +49,7 @@
             }
         @endphp
         @if($item->status)
-            <li class="nav-item mx-3 {{ $isActive }} @if($hasChildren) dropdown @endif">
+            <li class="nav-item mx-3 {{ $isActive }} @if($hasChildren) dropdown dropdown-toggle @endif">
                 <a class="nav-link @if($hasChildren) dropdown-toggle @endif"
                    @if($hasChildren) data-bs-toggle="dropdown" aria-expanded="false" @endif
                    href="{{ $item->link() }}"
