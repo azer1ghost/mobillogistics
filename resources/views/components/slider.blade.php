@@ -1,3 +1,9 @@
+<style>
+    .slide-image{
+        clip-path: ellipse(150% 100% at 50% 0);
+    }
+
+</style>
 <section id="homeSlide" class="carousel slide carousel-fade" data-bs-ride="carousel">
     <div class="carousel-indicators">
         @foreach($slides as $slide)
