@@ -11498,7 +11498,7 @@ a.nav-link:hover::after {
   vertical-align: 0.255em;
   font: 10px "Font Awesome 5 Pro", serif;
   content: "\f078";
-  color: var(--color-white);
+  color: var(--color-black);
 }
 
 .breadcrumb {
@@ -11957,6 +11957,11 @@ a.nav-link:hover::after {
   padding: 1.4rem 0;
 }
 
+.header-responsive {
+  padding-left: 123px;
+  padding-right: 130px;
+}
+
 .icon {
   font-size: 50px;
   color: #99cd08;
@@ -11968,7 +11973,7 @@ a.nav-link:hover::after {
 }
 
 .header-whatsapp {
-  margin-right: 15px;
+  margin-right: 0;
 }
 
 .header-icons {
@@ -12013,7 +12018,7 @@ a.nav-link:hover::after {
   }
 
   .header-logo {
-    margin-left: 110px;
+    margin-left: 100px;
   }
 
   .header-whatsapp {
@@ -12021,12 +12026,12 @@ a.nav-link:hover::after {
   }
 
   .header-icons {
-    margin-right: 108px;
+    margin-right: 95px;
     color: #111f6e;
   }
 
   .header-call {
-    margin-right: 38px;
+    margin-right: 30px;
   }
 
   .head-lang {

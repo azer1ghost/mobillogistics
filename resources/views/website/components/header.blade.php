@@ -1,6 +1,6 @@
 <header>
     <div class="header-top" style=" background-color: white; color:black;font-size: 18px">
-        <div class="container d-flex justify-content-between align-items-center py-2" >
+        <div class="container d-flex justify-content-between align-items-center py-2 header-responsive">
             <a class="navbar-brand header-logo" href="{{route('homepage')}}">
                 <img src="{{asset( Voyager::image(setting('site.logo')) ?? '/assets/images/logo-white.png') }}" width="150" alt="{{config('app.name')}}" >
             </a>
