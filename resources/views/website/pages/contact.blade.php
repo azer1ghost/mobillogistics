@@ -7,7 +7,7 @@
     <main id="contact">
         <div class="container ">
             <div class="row my-2 flex-md-row-reverse">
-                <div class="col-12 col-md-4 mb-4">
+                <div class="col-12 col-md-6 mb-4">
                     <div class="card" style="width: 18rem;">
                         <img class="card-img-top" height="250" src="https://mobillogistics.az/storage/branches/March2022/bnvqqiN4O4qyFIIoRQot.jpg" alt="Card image cap">
                         <h5 class="text-center">@lang('translates.main_branch')</h5>
