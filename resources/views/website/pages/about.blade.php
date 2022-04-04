@@ -9,7 +9,7 @@
         <div class="container pt-4">
             <div class="row my-2">
                 <div class="col-12">
-                    <img style="border-radius: 15px" src="{{asset(Voyager::image($meta->image()))}}" class="float-image float-image p-0 me-lg-4" alt="About US image">
+                    <img style="border-radius: 15px; height: 366px" src="{{asset(Voyager::image($meta->image()))}}" class="float-image float-image p-0 me-lg-4" alt="About US image">
                     <h1 class="mb-4">Mobil Logistics</h1>
                     <div>
                         {!! $meta->get('body') !!}
