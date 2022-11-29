@@ -16,9 +16,9 @@
                     </div>
                 </div>
             </div>
-            <x-counter/>
 
         </div>
+        <x-counter/>
         <x-certificate/>
     </main>
 @endsection
