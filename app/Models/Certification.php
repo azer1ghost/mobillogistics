@@ -9,7 +9,7 @@ use Illuminate\Database\Eloquent\SoftDeletes;
 /**
  * @method static active()
  */
-class Certificate extends Model
+class Certification extends Model
 {
     use SoftDeletes;
 

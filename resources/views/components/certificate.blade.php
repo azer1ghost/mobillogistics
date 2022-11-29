@@ -50,7 +50,7 @@
         var certificate = $(this).data('certificate')
         var src = certificate.image
 
-        $('.modal-image').attr('src', "http://mobillogistics.az/storage/" + src);
+        $('.modal-image').attr('src', "http://mobilbroker.az/storage/" + src);
         console.log(id);
     })
 </script>
