@@ -8,7 +8,6 @@ use TCG\Voyager\Voyager;
 Route::redirect('/', 'homepage')->name('index');
 Route::get('homepage', [WebsiteController::class, 'homepage'])->name('homepage');
 Route::get('about', [WebsiteController::class, 'about'])->name('about');
-Route::get('policy', [WebsiteController::class, 'policy'])->name('policy');
 Route::get('service/{service:slug}', [WebsiteController::class, 'service'])->name('service');
 Route::get('media/video', [WebsiteController::class, 'videoBlog'])->name('videoBlog');
 Route::get('media/articles', [WebsiteController::class, 'articles'])->name('articles');

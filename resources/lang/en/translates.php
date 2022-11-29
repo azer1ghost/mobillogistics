@@ -13,6 +13,7 @@ return [
     'share' => 'Share',
     'contact' => 'Contact',
     'name' => 'Name Surname',
+    'certificates' => 'Certificate and Orders',
     'email' => 'Email',
     'phone' => 'Phone',
     'subject' => 'Subject',

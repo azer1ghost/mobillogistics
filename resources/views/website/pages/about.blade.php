@@ -17,7 +17,7 @@
                 </div>
             </div>
             <x-counter/>
-{{--            <x-certificate/>--}}
+            <x-certificate/>
         </div>
     </main>
 @endsection

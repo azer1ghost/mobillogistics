@@ -13,6 +13,7 @@ return [
     'email' => 'Elektron Poçt',
     'phone' => 'Nömrə',
     'subject' => 'Mövzu',
+    'certificates' => 'Sertifikat və Mükafatlarımız',
     'note' => 'Qeyd',
     'send' => 'Göndər',
     'join_us' => 'Sürətli logistika xidməti',
